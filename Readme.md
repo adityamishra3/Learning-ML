@@ -17,5 +17,3 @@ Feel free to clone, fork, or just browse around. If you find something useful, g
 ## Disclaimer
 
 This is a personal learning project, so I'm not actively looking for contributions. But if you have a brilliant idea, feel free to open an issue and we can chat.
-
-**Warning:** I'm not responsible for any existential crises that may arise from trying to understand the math in the `mathematics.md` file. You have been warned.
