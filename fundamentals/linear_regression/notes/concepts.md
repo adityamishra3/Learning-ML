@@ -61,7 +61,7 @@ MSE Curve:
 We calculate the value of MSE for different Ws and Bs and plot a graph. 
 Since we are plotting it for 3 dimensions (MSE, w, b), its a 3d graph, and it is like a bowl.
 
-![alt text](image-2.png)
+![alt text](../assets/images/linear_regression_plot.png)
 
 Here we have the value of cost (calculated using MSE) for different values of w (x axis) and b (y axis) 
 
