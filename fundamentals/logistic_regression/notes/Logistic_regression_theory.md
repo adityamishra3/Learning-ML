@@ -187,3 +187,22 @@ z = wx + b
 ŷ = 1 / (1 + e^(-z))
 
 3. Optimize parameters using **Binary Cross Entropy Loss**.
+---
+
+# How do we improve the model?
+
+Now comes **Gradient Descent**.
+
+Gradient descent is not a cost function.
+
+It is an optimization algorithm.
+
+Its job:
+>Adjust params w and b to reduce cost.
+
+Key differentiator: 
+| Component        | Role                               |
+| ---------------- | ---------------------------------- |
+| Model            | Makes predictions                  |
+| Cost Function    | Measures how wrong predictions are |
+| Gradient Descent | Changes parameters to reduce error |
