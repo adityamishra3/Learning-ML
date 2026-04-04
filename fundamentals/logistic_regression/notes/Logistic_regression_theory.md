@@ -180,11 +180,11 @@ Log loss **heavily penalizes confident but incorrect predictions**, which helps 
 
 1. Compute linear score
 
-z = wx + b
+    z = wx + b
 
 2. Convert to probability
 
-ŷ = 1 / (1 + e^(-z))
+    ŷ = 1 / (1 + e^(-z))
 
 3. Optimize parameters using **Binary Cross Entropy Loss**.
 ---
