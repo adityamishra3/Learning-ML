@@ -135,3 +135,16 @@ ${R_{Dog}} = 25 / (25 + 15) $
 We can have **Macro** and **Weighted** recall.
 
 ---
+
+```python       
+
+from sklearn.metrics import precision_score, recall_score, f1_score
+
+precision_score(y_test, y_pred, average=None) # to see precision values for all the available classes
+
+precision_score(y_test, y_pred, average='weighted') # to see precision values with weighted average, so that if any class is dominating, or if any is very less, their weights average their contribution in precision 
+
+precision_score(y_test, y_pred, average='macro') # to see precision values with macro average
+
+
+```
